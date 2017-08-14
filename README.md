@@ -20,16 +20,16 @@ npm install aws-serverless-config --save
 in app.js
 
 ```JavaScript
-const awsServerlessConfig = require("aws-serverless-express");
+const awsConfig = require("aws-serverless-express");
 
-app.use(awsServerlessExpress);
+app.use(awsConfig);
 ```
 
 in app.ts
 ```TypeScript
-import awsServerlessConfig from "aws-serverless-express";
+import awsConfig from "aws-serverless-express";
 
-app.use(awsServerlessExpress);
+app.use(awsConfig);
 ```
 
 using `aws-config`
