@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 function default_1(req, res, next) {
-    const env = { lambdaAlias: 'ENV' }; //process.env;
+    const env = process.env;
     const stageVariables = getApigatewayEvent(req).stageVariables;
     const config = Object.assign({}, env, stageVariables);
     req["aws-config"] = config;

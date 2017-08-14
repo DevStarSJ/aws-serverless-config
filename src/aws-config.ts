@@ -1,7 +1,7 @@
 import {Request , Response , NextFunction}  from 'express';
 
 export default function (req: Request, res: Response, next: NextFunction) {
-    const env =  {lambdaAlias: 'ENV'};//process.env;
+    const env = process.env;
     const stageVariables = getApigatewayEvent(req).stageVariables;
 
     const config: any = Object.assign({}, env, stageVariables);
