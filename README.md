@@ -2,6 +2,12 @@
 
 make aws-config in aws-serverless-express
 
+Merge Lambda environment varaiables and API Gateway stagevariables to Request["aws-config"].
+
+If you want to local test, use [dotenv](https://www.npmjs.com/package/dotenv).
+
+If there is same variable between Lambda environment varaiables and API Gateway stagevariables, save API Gateway's.
+
 
 ## install
 
@@ -31,7 +37,3 @@ using `aws-config`
 const config = req["aws-config"]
 console.info(JSON.stringify(config,null,2));
 ```
-
-
-* If you want to local test, use [dotenv](https://www.npmjs.com/package/dotenv).
-* If there is same variable between Lambda environment varaiables and API Gateway stagevariables, save API Gateway's.
