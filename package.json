@@ -1,0 +1,29 @@
+{
+  "name": "aws-serverless-config",
+  "version": "1.0.0",
+  "description": "merge AWS Lambda envirionment variables and API Gateway stage variables to Request[\"aws-config\"]",
+  "main": "index.js",
+  "types": "./src/aws-config.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevStarSJ/aws-serverless-config.git"
+  },
+  "keywords": [
+    "aws-serverless-express"
+  ],
+  "author": "Yun Seok-Joon <seokjoon.yun@gmail.com> (https://devstarsj.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DevStarSJ/aws-serverless-config/issues"
+  },
+  "homepage": "https://github.com/DevStarSJ/aws-serverless-config#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.0.36"
+  }
+}
