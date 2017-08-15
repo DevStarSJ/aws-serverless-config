@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/DevStarSJ/aws-serverless-config.svg?branch=master)](https://travis-ci.org/DevStarSJ/aws-serverless-config)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/DevStarSJ/aws-serverless-config/blob/master/LICENSE)
+
 make aws-config in aws-serverless-express
 
 Merge Lambda environment varaiables and API Gateway stagevariables to Request["aws-config"].
