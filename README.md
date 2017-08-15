@@ -98,7 +98,7 @@ import {awsConfig, pringLog} from "aws-serverless-express";
 app.use(awsConfig, pringLog);
 ```
 
-## 3. print-error
+## 4. print-error
 
 This will cause CloudWatch to display the resulting Error.
 If you do not do anything, CloudWatch will show an error. If you use another ErrorHandler, you may not want to print it. In this case, it is possible to print using this.
