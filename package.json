@@ -5,7 +5,7 @@
   "main": "index.js",
   "types": "./src/aws-config.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
     "express": "^4.15.4"
   },
   "devDependencies": {
-    "@types/express": "^4.0.36"
+    "@types/express": "^4.0.36",
+    "express-mocks-http": "0.0.11"
   }
 }
