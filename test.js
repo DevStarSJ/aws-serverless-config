@@ -1,7 +1,7 @@
 "use strict";
 const assert = require("assert");
 const httpMocks = require("express-mocks-http");
-const index = require("./index");
+const index = require("./dist/index");
 const awsConfig = index.awsConfig;
 const apigatewayEventParser = index.apigatewayEventParser;
 const printLog = index.printLog;
