@@ -1,6 +1,6 @@
 {
   "name": "aws-serverless-config",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "merge AWS Lambda envirionment variables and API Gateway stage variables to Request[\"aws-config\"]",
   "main": "index.js",
   "types": "./src/aws-config.ts",
