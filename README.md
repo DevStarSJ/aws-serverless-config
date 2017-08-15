@@ -1,4 +1,3 @@
-
 # aws-serverless-config
 
 [![Build Status](https://travis-ci.org/DevStarSJ/aws-serverless-config.svg?branch=master)](https://travis-ci.org/DevStarSJ/aws-serverless-config)
