@@ -77,7 +77,7 @@ This is a middleware that provides a function to output the log so that CloudWat
 
 - EVENT : Print apigateway event.
 - REQUEST : Print express request.
-- SIMPLE : Print body, headers, query, url, params from express request.
+- SIMPLE : Print body, headers, query, url, params and aws-config from express request.
 
 To do this you need to run aws-config first.
 

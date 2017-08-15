@@ -23,7 +23,8 @@ function printLogIfNeed(req) {
             body: req.body,
             query: req.query,
             url: req.url,
-            params: req.params
+            params: req.params,
+            "aws-config": req["aws-config"]
         } :
             logStyle === PRINT_REQUEST ? req : undefined;
     if (log)
