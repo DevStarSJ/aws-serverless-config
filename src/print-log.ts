@@ -31,6 +31,6 @@ function printLogIfNeed(req: Request) {
             logStyle === PRINT_REQUEST ? req : undefined;
 
     if (log)
-        console.error(log);
+        console.error(logStyle === PRINT_REQUEST ? log : JSON.stringify(log, null, 2));
 }
 
