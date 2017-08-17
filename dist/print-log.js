@@ -9,8 +9,8 @@ function printLog(req, res, next) {
 }
 exports.printLog = printLog;
 function printError(err, req, res, next) {
-    console.info(err);
-    next();
+    console.error(err);
+    next(err);
 }
 exports.printError = printError;
 function printLogIfNeed(req) {

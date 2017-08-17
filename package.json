@@ -1,6 +1,6 @@
 {
   "name": "aws-serverless-config",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Provide four middleware about event, config and log for aws-serverless-express.",
   "main": "./dist/index.js",
   "types": "./src/index.ts",

@@ -10,8 +10,8 @@ export function printLog(req: Request, res: Response, next: NextFunction) {
 }
 
 export function printError(err: any, req: Request, res: Response, next: NextFunction) {
-    console.info(err);
-    next();
+    console.error(err);
+    next(err);
 }
 
 function printLogIfNeed(req: Request) {
